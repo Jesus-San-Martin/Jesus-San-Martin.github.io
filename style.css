@@ -1,0 +1,210 @@
+html{
+    background-color: rgb(20, 20, 20);
+    color: #349194;
+}
+
+.lostroyanos {
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+        justify-content: space-between;
+        max-height: 35px;
+}
+
+.cabecera {
+    display: flex;
+}
+
+.nombre {    
+    display: flex;
+        margin: 0px;
+        padding-left: 5px;
+}
+
+.logoimg {
+    height: 70%;
+}
+
+.menu ul {
+        display: flex;
+        list-style:none;
+        margin-top: 0px;
+        margin-right: 10px;
+}
+
+.menu ul li {
+    display: flex;
+        justify-content: space-around;
+        padding: 4px;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #349194;
+}
+
+.divdescripcion {
+    
+    display: flex;
+        justify-content: center;   
+}
+
+hr {
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+.linea1{
+    margin-top: 100px;
+}
+
+.pasos img {
+    height: 20%;
+    width: 20%;
+
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.paso12 {
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;   
+   
+}
+
+.paso34 {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 100px;
+    align-items: center;
+    width: 80%;
+}
+
+p {
+    width:20%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.pregunta{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.pregunta h2{
+    margin-top: 60px;
+}
+
+.contenedorBoton{
+    display:flex; 
+    flex-direction: column;   
+    align-items: center;      
+    margin-top: 100px;    
+}
+
+
+a{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+
+.boton{ 
+    margin-top: 20px;   
+    background-color: #349194 ;
+    width: 50%;
+    height: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+        align-items: center;
+        justify-content: center space-between;
+        max-height: 35px;
+}
+
+.pie ul {
+       
+    display: flex;
+        
+        list-style:none;
+        margin-top: 0px;
+        margin-right: 10px;
+}
+
+.pie {
+    display: flex;q
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+
+.animacion:hover {
+    background-color: brown;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+
+animation{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animation{
+    0% {
+        transform: translateX(0px)  
+        
+    }
+
+    20%{
+        transform: translateX(-10px) 
+    }
+
+    40%{
+        transform: translateX(10px) 
+        rotate(7200deg)
+    }  
+
+    60% {
+        transform: translateX(0px) 
+    }
+    
+    80%{
+        transform: translateX(-10px) 
+    }
+
+    100%{
+        transform: translateX(10px) 
+    }  
+}
+
+/*.pie ul li {
+    display: flex;
+        justify-content: space-around;
+        padding: 4px;
+}*/
